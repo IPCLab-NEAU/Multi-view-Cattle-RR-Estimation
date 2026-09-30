@@ -50,6 +50,6 @@ The dataset contains 3,613 image-label pairs in total. The annotated class is ab
 
 ### Trajectory Projection and APA for Respiratory Signal Reconstruction
 
-| Method | MAE (95% CI) | RMSE (95% CI) | MAPE (95% CI) | Bias (95% CI) | Pearson r (95% CI) ↑ |
+| Method | MAE (95% CI) | RMSE (95% CI) | MAPE (95% CI) | Bias (95% CI) | Pearson r (95% CI) |
 | --- | --- | --- | --- | --- | --- |
 | Full | 2.67 [2.36, 3.05] | 3.39 [2.97, 3.86] | 7.19 [6.37, 8.26] | 0.63 [0.05, 1.28] | 0.86 [0.80, 0.90] |
