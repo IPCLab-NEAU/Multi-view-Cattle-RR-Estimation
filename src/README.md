@@ -38,10 +38,3 @@ python -m cattle_rr --input /path/to/roi_segment --fps 25 --output outputs/run -
 ```
 
 Output files are `rr_result.json` and `signals.csv`. The CSV records the raw polarity-aligned median, the median without APA, the filtered signal, and indices in the ROI segment and the source video. Unavailable rates are recorded as JSON `null` with a failure status.
-
-
-## Dataset access
-
-MVCRM dataset access details are described in the associated manuscript/project page. 
-
-Public visibility alone does not grant permission to reuse, modify, or redistribute the code beyond applicable law.
