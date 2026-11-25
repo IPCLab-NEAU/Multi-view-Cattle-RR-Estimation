@@ -2,38 +2,16 @@
 
 A multi-view cattle respiratory-rate estimation project based on abdominal-region observations under practical farm conditions.
 
-## 🔥 Overview
+## Overview
 
 ![Overview of the multi-view cattle respiratory-rate estimation method](Overview.jpg)
 
 ## 1️⃣ Data
 
-The dataset contains RGB abdominal-region images and their corresponding annotations. The images are organized into training, validation, and test splits. Source videos are not included in the release.
+The dataset contains RGB abdominal-region images and their corresponding annotations. The images are organized into training, validation, and test splits. Source videos are not included in the release. The release also includes video clips for respiratory rate (RR) estimation.
 
-The complete image and annotation package will be shared separately:
+The datasets are available in the Baidu Netdisk repository, [https://pan.baidu.com/s/1hLCwoc6B8VnK4tdvi-YTrQ] (Access code: 1225).
 
-To download the dataset, please download all files from [here](https://pan.baidu.com/s/1hLCwoc6B8VnK4tdvi-YTrQ).
-
-For the extraction code, please contact [bsdai@neau.edu.cn](mailto:bsdai@neau.edu.cn).
-
-### 📁 Dataset Structure
-
-```text
-dataset/
-├── images/
-│   ├── train/
-│   ├── val/
-│   └── test/
-├── labels/
-│   ├── train/
-│   ├── val/
-│   └── test/
-└── data.yaml
-```
-
-The dataset contains 3,613 image-label pairs in total.
-
-The dataset contains 3,613 image-label pairs in total. The annotated class is abdominal (class ID: 0). Label files use the YOLO segmentation format and share the corresponding image filename stem.
 
 ## 2️⃣ Results
 
@@ -48,7 +26,7 @@ The dataset contains 3,613 image-label pairs in total. The annotated class is ab
 | YOLO11n-seg | 2.83 | 9.44 | 80.85 | 32.34 | 293.96 ± 116.41 |
 | YOLO26n-seg | 2.69 | 8.89 | 78.64 | 30.23 | 247.91 ± 108.27 |
 
-### Trajectory Projection and APA for Respiratory Signal Reconstruction
+### Respiratory Rate Estimation Results of the Full Method
 
 | Method | MAE (95% CI) | RMSE (95% CI) | MAPE (95% CI) | Bias (95% CI) | Pearson r (95% CI) |
 | --- | --- | --- | --- | --- | --- |
